@@ -1,0 +1,41 @@
+html {
+    background-color: rgb(192, 192, 192);
+}
+body {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 760px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: .5em 2em;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+
+td:first-child{
+	width : 250px;
+}
+
+td:nth-child(3){
+	width : 500px;
+	color: red;	
+	border-style: none;
+}
+
+
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
